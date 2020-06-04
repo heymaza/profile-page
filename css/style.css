@@ -1,0 +1,100 @@
+body {
+    background-image: url('../img/BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+/*  position: absolute;
+  bottom: 50px; */ /* горизонтально в пикселях */
+/*  right: 50px; *//* вертикально в пикселях */
+/*  position: fixed; relative; absolute; */ /* позиция названия "Desing studio" остается в одном месте без изменений */
+/*   position: absolute;
+  top: 39px;
+  left: 144px;  */
+  position: absolute;
+  width: 99px;
+  height: 22px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 38px;
+  margin-left: 150px;
+
+  color: #FFFFFF;
+}
+
+#logo {
+/*  position: absolute;
+  bottom: 50px; */ /* горизонтально в пикселях */
+/*  right: 50px; *//* вертикально в пикселях */
+/*  position: fixed; relative; absolute; */ /* позиция названия "Desing studio" остается в одном месте без изменений */
+/*   position: absolute;
+  top: 39px;
+  left: 144px;  */
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+
+}
+
+.bg-header {
+  background-image: url('../img/BGHEADER.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  display:block;
+
+  min-width: 1440px;
+  height: 381px;
+}
+
+#top-menu { /* #- стили */
+
+  float:right;
+}
+
+#top-menu a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 22px;
+
+  color: #FFFFFF;
+}
+
+.download-icon {
+  margin-right: 6px;
+}
+
+#top-menu img, #top-menu svg {
+  vertical-align: middle;
+
+}
+
+.instagram-icon::before/*after*/ {
+  content:url('../images/icon-instagram.svg')
+}
+
+
+#content {
+
+
+}
+
+.content {
+
+    display:block;
+    background-color: white;
+    width: 1380px;
+    height: 1195px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    margin-top: -79px;
+    margin-left: 30px;
+}
